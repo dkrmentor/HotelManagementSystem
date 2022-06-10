@@ -22,7 +22,7 @@ const userSchema = Schema({
     //choice
     enum: {
       values: ["user", "admin"],
-      message: "role musr be admin or user",
+      message: "role must be admin or user",
     },
     // default: "user",
     required: true,

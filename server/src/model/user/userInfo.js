@@ -6,7 +6,7 @@ const userInfoSchema = Schema({
     required: true,
   },
   cnic: {
-    type: Number,
+    type: String,
     required: true,
     min: [16, "enter a valid cnic number"],
     max: [16, "enter a valid cnic number"],
